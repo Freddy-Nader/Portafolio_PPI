@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P2: Coches</title>
+    <link rel="stylesheet" href="../p3/style2.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="../">Inicio</a></li>
+                <li><a href="../#about">About</a></li>
+                <li class="dropdown">
+                    <a href="../#practicas">Prácticas <span class="arrow"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="../p2/">Práctica 2</a></li>
+                        <li><a href="../p3/">Práctica 3</a></li>
+                        <li><a href="../p4/">Práctica 4</a></li>
+                        <li><a href="../p5/">Práctica 5</a></li>
+                        <li><a href="../p6/">Práctica 6</a></li>
+                        <li><a href="../mt/">Proyecto Intermedio</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Coches 🚗</h1>
+    <h2>Historia del automóvil</h2>
+
+    <p>La historia del automóvil comenzó en el siglo XIX con la invención del motor de combustión interna. Los primeros vehículos motorizados eran rudimentarios y lentos, como el triciclo de Karl Benz en 1885, considerado el primer automóvil moderno. Con los años, marcas como Ford revolucionaron la industria al introducir la producción en masa, haciendo los coches más accesibles. Hoy en día, los automóviles han evolucionado hacia modelos eléctricos y autónomos, marcando una nueva era en la movilidad.</p>
+
+    <h3>Los primeros automóviles</h3>
+
+    <h4>El triciclo de Benz</h4>
+    <p>El Triciclo de Benz, considerado el primer automóvil moderno, fue un vehículo de tres ruedas propulsado por un motor de combustión interna de un solo cilindro.  Fue inventado en 1885 por Karl Benz y marcó el inicio de la era del automóvil.</p> 
+
+    <h4>La era de la motorización</h4>
+    <p>El desarrollo del motor de combustión interna y la introducción de la producción en masa fueron claves para el rápido crecimiento de la industria automotriz a principios del siglo XX.  Esto llevó a la creación de nuevas marcas y modelos, y a la popularización del automóvil como medio de transporte.</p>
+
+
+    <h3>El auge de la industria automotriz</h3>
+
+    <h4>Ford y la producción en masa</h4>
+    <p>Henry Ford revolucionó la industria automotriz con la introducción de la producción en masa y el Ford Modelo T.  Este modelo,  producido en grandes cantidades y a un precio accesible, permitió que el automóvil se convirtiera en un medio de transporte popular.</p>
+
+    <h4>Competencia y desarrollo</h4>
+    <p>A medida que la industria automotriz crecía, surgieron nuevas marcas y modelos de automóviles, impulsando la innovación en diseño y tecnología.  La competencia entre las empresas llevó a la introducción de nuevas características, mejoras en la seguridad y avances en la eficiencia de los vehículos.</p>
+
+
+    <h1>Listas de coches</h1>
+    <h2>Marcas de coches</h2>
+    <ol type="i">
+        <li>Ford</li>
+        <li>Toyota</li>
+        <li>Volkswagen</li>
+        <li>Hyundai</li>
+        <li>Chevrolet</li>
+        <li>Nissan</li>
+        <li>Honda</li>
+        <li>Kia</li>
+        <li>Mercedes-Benz</li>
+        <li>BMW</li>
+    </ol>
+
+    <h2>Tipos de coches</h2>
+    <ul>
+        <li>Sedán</li>
+        <li>SUV</li>
+        <li>Hatchback</li>
+        <li>Deportivo</li>
+        <li>Camioneta</li>
+        <li>Familiar</li>
+        <li>Convertible</li>
+        <li>Coupé</li>
+        <li>Monovolumen</li>
+        <li>Todoterreno</li> 
+    </ul>
+    
+
+    <h2>Características de un coche</h2>
+    <dl>
+        <dt>Motor</dt>
+        <dd>Proporciona la potencia para mover el vehículo.</dd>
+        <dt>Transmisión</dt>
+        <dd>Transmite la potencia del motor a las ruedas.</dd>
+        <dt>Suspensión</dt>
+        <dd>Absorbe los impactos del camino y proporciona comodidad.</dd>
+        <dt>Frenos</dt>
+        <dd>Detienen el vehículo de forma segura.</dd>
+        <dt>Neumáticos</dt>
+        <dd>Proporcionan agarre y tracción en la carretera.</dd>
+    </dl>
+
+
+    <h1>Formulario de contacto</h1>
+    <form action="">
+        <h5>Datos básicos</h5>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required><br>
+        <label for="lastname">Apellido:</label>
+        <input type="text" id="lastname" required><br>
+        <label for="age">Edad:</label>
+        <input type="number" id="age" min="18" max="100"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" required><br>
+        <label for="date">Fecha:</label>
+        <input type="date" id="date"><br>
+        <label for="comentario">Comentario:</label>
+        <input id="comentario" type="text"><br>
+
+        <h5>Preferencias del coche</h5>
+        <h6>Marca preferida</h6>
+        <label for="volks">Volkswagen:</label>
+        <input type="radio" name="volks" id="volks" checked><br>
+        <label for="Ford">Ford</label>
+        <input type="radio" name="Ford" id="Ford"><br>
+        <label for="benz">Mercedes-Benz</label>
+        <input type="radio" name="benz" id="benz"><br>
+        <label for="toyota">Toyota</label>
+        <input type="radio" name="toyota" id="toyota"><br>
+        
+        <h6>Tipo de coche</h6>
+        <label for="sedan">Sedán:</label>
+        <input type="checkbox" name="sedan" id="sedan" checked><br>
+        <label for="hatch">Hatchback</label>
+        <input type="checkbox" name="hatch" id="hatch"><br>
+        <label for="SUV">SUV</label>
+        <input type="checkbox" name="SUV" id="SUV"><br>
+        <label for="Deportivo">Deportivo</label>
+        <input type="checkbox" name="Deportivo" id="Deportivo"><br>
+
+        <h6>Otras especificaciones</h6>
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color"><br>
+        <label for="referencia">Referencia:</label>
+        <input type="file" name="referencia" id="referencia"><br>
+        <label for="estilo">Nivel de estilo 😎:</label>
+        <input type="range" name="estilo" id="estilo"><br>
+
+        <h5>Envío</h5>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

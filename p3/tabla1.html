@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            user-select: none;
+            /* para ser un poco molestos ;) */
+        }
+
+        table {
+            border: 3px solid;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th,
+        td {
+            border: 1px solid;
+            padding: 5px;
+            width: 120px;
+        }
+
+        th {
+            background-color: #B0B0B0;
+            border-bottom: 1.5px solid;
+        }
+
+        .primero {
+            background-color: lightcoral;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .segundo {
+            background-color: lightblue;
+            font-family: sans-serif;
+        }
+
+        .tercero {
+            background-color: lightgreen;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        table th:hover,
+        table td:hover {
+            background-color: black;
+            color: white;
+            cursor: crosshair;
+        }
+
+        table th:active,
+        table td:active {
+            background-color: black;
+            color: white;
+            cursor: grabbing;
+        }
+    </style>
+    <title>Tablas básicas</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="../">Inicio</a></li>
+                <li><a href="../#about">About</a></li>
+                <li class="dropdown">
+                    <a href="../#practicas">Prácticas <span class="arrow"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="../p2/">Práctica 2</a></li>
+                        <li><a href="../p3/">Práctica 3</a></li>
+                        <li><a href="../p4/">Práctica 4</a></li>
+                        <li><a href="../p5/">Práctica 5</a></li>
+                        <li><a href="../p6/">Práctica 6</a></li>
+                        <li><a href="../mt/">Proyecto Intermedio</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 id="inicio">Tabla básica</h1>
+
+    <!-- Se ve absolutamente espantoso con esas fuentes, pero está divertido verlo así -->
+    <table>
+        <tr>
+            <th>Ciudad</th>
+            <th>Lugar 1</th>
+            <th>Lugar 2</th>
+            <th>Lugar 3</th>
+        </tr>
+        <tr class="primero">
+            <td>Nueva York</td>
+            <td>Estatua de la Libertad</td>
+            <td>Empire State</td>
+            <td>Central Park</td>
+        </tr>
+        <tr class="segundo">
+            <td>París</td>
+            <td>Torre Eiffel</td>
+            <td>Louvre</td>
+            <td>Notre Dame</td>
+        </tr>
+        <tr class="tercero">
+            <td>Londres</td>
+            <td>Big Ben</td>
+            <td>London Eye</td>
+            <td>Tower Bridge</td>
+        </tr>
+        <tr class="primero">
+            <td>Roma</td>
+            <td>Coliseo</td>
+            <td>Fontana di Trevi</td>
+            <td>Panteón</td>
+        </tr>
+        <tr class="segundo">
+            <td>Tokio</td>
+            <td>Shibuya</td>
+            <td>Monte Fuji</td>
+            <td>Templo Senso-ji</td>
+        </tr>
+        <tr class="tercero">
+            <td>Ciudad de México</td>
+            <td>Zócalo</td>
+            <td>Chapultepec</td>
+            <td>Palacio de Bellas Artes</td>
+        </tr>
+        <tr class="primero">
+            <td>Río de Janeiro</td>
+            <td>Cristo Redentor</td>
+            <td>Pan de Azúcar</td>
+            <td>Copacabana</td>
+        </tr>
+        <tr class="segundo">
+            <td>El Cairo</td>
+            <td>Pirámides de Giza</td>
+            <td>Esfinge</td>
+            <td>Museo Egipcio</td>
+        </tr>
+        <tr class="tercero">
+            <td>Sídney</td>
+            <td>Ópera de Sídney</td>
+            <td>Harbour Bridge</td>
+            <td>Bondi Beach</td>
+        </tr>
+        <tr class="primero">
+            <td>Moscú</td>
+            <td>Kremlin</td>
+            <td>Plaza Roja</td>
+            <td>Catedral de San Basilio</td>
+        </tr>
+    </table>
+
+    <footer>
+        <h2>Navegación</h2>
+        <ol>
+            <li><a href="tabla1.html">Tabla</a></li>
+            <li><a href="estadistica.html">Estadística</a></li>
+            <li><a href="imagenes.html">Imágenes</a></li>
+        </ol>
+        <ul>
+            <li><a href="index.html">Página principal</a></li>
+            <li><a href="#inicio">Estoy muy abajo...</a></li>
+        </ul>
+
+        <a href="https://tiktok.com">No regreses acá 🙄</a><br>
+        <a href="https://google.com">Busca unas páginas mejores</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.header div {
+    justify-content: space-evenly;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 16px 0;
+}
+
+img {
+    margin-bottom: 16px;
+}
+
+div img {
+    max-width: 50%;
+}
+
+div {
+    text-align: center;
+    display: block;
+}
+
+.logo {
+    width: 80px;
+}

@@ -1,0 +1,57 @@
+html,
+body {
+    font-family: "bodoni", 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 24px;
+    margin-bottom: 6px;
+}
+
+p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+hr {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px;
+    border-color: #ddd;
+    align-items: center;
+}
+
+.x {
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    justify-content: center;
+}
+
+/* Por ahora, todavía no se hace mucho con el header ni con el footer, pero se plantan las bases */
+header {
+    height: 60px;
+}
+footer {
+    height: 150px;
+}
+
+/**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+#map {
+    height: 100%;
+}

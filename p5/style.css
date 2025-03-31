@@ -1,0 +1,64 @@
+/* Documento */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input {
+    background-color: lightgray;
+    color: black;
+}
+
+h2 {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin-top: 24px;
+    margin-bottom: 6px;
+}
+
+h4 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+p {
+    /* margin-top: 4px; */
+    margin-bottom: 4px;
+}
+
+
+/* Tablas */
+
+table {
+    border: 3px solid;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 5px;
+    width: 120px;
+}
+
+th {
+    background-color: #bbb;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tr:hover {
+    background-color: black;
+    color: white;
+    cursor: crosshair;
+}

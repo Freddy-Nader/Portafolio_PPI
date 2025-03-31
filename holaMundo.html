@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table.tab2 tr th {
+            border: solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+    <h4>Encabezado 4</h4>
+    <h5>Encabezado 5</h5>
+    <h6>Encabezado 6</h6>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae obcaecati veniam tempore ea odio soluta aut nostrum voluptates mollitia porro doloribus, perferendis et amet alias sint earum modi. Iste, vel.</p>
+    <p>Exercitationem odio qui id illum iusto, quidem nesciunt voluptatem tempore aliquam nihil quibusdam libero assumenda consectetur modi voluptas eius similique quisquam neque ad perspiciatis non? Totam inventore numquam sunt minus.</p>
+    <p>Laudantium vel quos accusantium voluptates ut, nesciunt necessitatibus cumque, recusandae, eaque similique suscipit reiciendis! Quaerat rerum vero eius dolorem magni nihil sed molestias, corporis veritatis. Eum eius itaque quo odio.</p>
+    <p>Maiores vel esse harum. Est nisi quis nihil enim soluta sint aut repellendus laboriosam deleniti! Sint beatae accusantium magni totam est numquam dolorum dolor reprehenderit quasi? Exercitationem ad minus quaerat.</p>
+
+
+    <h1>Listas</h1>
+    <h2>Ordenadas</h2>
+    <ol type="i">
+        <li>Primer elemento</li>
+        <li>Segundo</li>
+        <li>Numero tres</li>
+        <li>Quattro</li>
+    </ol>
+    <h2>No ordenadas</h2>
+    <ul>
+        <li>Un elemnto</li>
+        <li>Otro elemento</li>
+        <li>Uno más</li>
+        <li>Ya, último</li>
+    </ul>
+    
+    <!-- El atajo emmet ```ol>li{Elemento $}*5``` produce: -->
+    <ul type="square">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+    </ul>
+
+    <h2>Listas descriptivas</h2>
+    <dt>
+        <dt>Coffee</dt>
+        <dd>With caramel</dd>
+        <dd>Simple</dd>
+        <dt>Milk</dt>
+        <dd>Almond</dd>
+        <dd>Oat</dd>
+    </dt>
+
+
+    <h1>Formularios</h1>
+    <form action="https://apple.com">
+        <h2>Datos básicos</h2>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required><br>
+        <label for="age">Edad:</label>
+        <input type="number" id="age" min="0" max="100" readonly disabled value="18"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+        <label for="date">Fecha:</label>
+        <input type="date" id="date"><br>
+
+        <h2>Género</h2>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="genero" id="hombre" checked><br>
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="genero" id="mujer" checked><br>
+        <label for="ninguno">Ninguno</label>
+        <input type="radio" name="genero" id="ninguno"><br>
+        <label for="NA">Prefiero no decirlo</label>
+        <input type="radio" name="genero" id="NA"><br>
+        
+        <h2>Medio de transporte</h2>
+        <label for="automovil">Automóvil</label>
+        <input type="checkbox" id="automovil" name="transporte"><br>
+        <label for="moto">Motocicleta</label>
+        <input type="checkbox" id="moto" name="transporte"><br>
+        <label for="publico">Transporte público</label>
+        <input type="checkbox" id="publico" name="transporte"><br>
+        <label for="peaton">Peatón</label>
+        <input type="checkbox" id="peaton" name="transporte"><br>
+        <label for="bici">Bicicleta</label>
+        <input type="checkbox" id="bici" name="transporte"><br>
+
+        <h2>Gustos personales</h2>
+        <label for="color">Color favorito:</label>
+        <input type="color" name="color" id="color"><br>
+        <label for=""></label>
+        <input type="" name="" id=""><br>
+
+        <label for=""></label>
+        <input type="" name="" id=""><br>
+
+        <input type="submit" value="Enviar">
+
+        <p>Nota: <a href="https://www.w3schools.com/html/html_forms.asp">acá</a> se pueden ver los <a href="https://www.w3schools.com/html/html_form_attributes.asp">atributos</a> y los <a href="https://www.w3schools.com/html/html_form_input_types.asp">tipos</a> de <mark>input</mark>.</p>
+    </form>
+    
+    
+    <h2>Tablas</h2>
+    <h3>Tabla 1</h3>
+    <table>
+        <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Campo 1</td>
+            <td>Campo 2</td>
+        </tr>
+        <tr>
+            <td>Campo 3</td>
+            <td>Campo 4</td>
+        </tr>
+    </table>
+    <h3>Tabla 2</h3>
+    <table class="tab2">
+        <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Campo 1</td>
+            <td>Campo 2</td>
+        </tr>
+        <tr>
+            <td>Campo 3</td>
+            <td>Campo 4</td>
+        </tr>
+    </table>
+</body>
+</html>
