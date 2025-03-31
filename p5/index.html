@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5: Helados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="../">Inicio</a></li>
+                <li><a href="../#about">About</a></li>
+                <li class="dropdown">
+                    <a href="../#practicas">Prácticas <span class="arrow"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="../p2/">Práctica 2</a></li>
+                        <li><a href="../p3/">Práctica 3</a></li>
+                        <li><a href="../p4/">Práctica 4</a></li>
+                        <li><a href="../p5/">Práctica 5</a></li>
+                        <li><a href="../p6/">Práctica 6</a></li>
+                        <li><a href="../mt/">Proyecto Intermedio</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Regístrate en <em>Helados S.A. de C.V.</em></h1>
+
+    <form id="formulario">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <p>¿Cuáles sabores de helado te gustan?</p>
+        <input type="checkbox" name="sabores" value="Chocolate"> Chocolate
+        <input type="checkbox" name="sabores" value="Vainilla"> Vainilla
+        <input type="checkbox" name="sabores" value="Fresa"> Fresa <br>
+
+        <p>¿Cómo supiste de nosotros?</p>
+        <input type="radio" name="mkt" value="Redes sociales"> Redes sociales
+        <input type="radio" name="mkt" value="Noticias"> Noticias
+        <input type="radio" name="mkt" value="Anuncios publicitarios"> Anuncios publicitarios <br>
+
+        <label for="fecha">Fecha:</label>
+        <input type="datetime-local" id="fecha" name="fecha"><br>
+
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color"><br>
+
+        <label for="calificacion">Calificación de la encuesta:</label>
+        <input type="range" id="calificacion" name="calificacion" min="1" max="10" value="10"><br>
+
+        <button type="button" onclick="checar()">Verificar información</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="errores"></div>
+
+    <h2>Tabla de Registros</h2>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Sabores</th>
+                <th>Contacto</th>
+                <th>Fecha</th>
+                <th>Color</th>
+                <th>Calificación</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

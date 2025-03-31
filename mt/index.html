@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="../">Inicio</a></li>
+                <li><a href="../#about">About</a></li>
+                <li class="dropdown">
+                    <a href="../#practicas">Prácticas <span class="arrow"></span></a>
+                    <ul class="dropdown-content">
+                        <li><a href="../p2/">Práctica 2</a></li>
+                        <li><a href="../p3/">Práctica 3</a></li>
+                        <li><a href="../p4/">Práctica 4</a></li>
+                        <li><a href="../p5/">Práctica 5</a></li>
+                        <li><a href="../p6/">Práctica 6</a></li>
+                        <li><a href="../mt/">Proyecto Intermedio</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h1>Conversor de Unidades</h1>
+
+    <div class="converter">
+        <label for="category">Categoría:</label>
+        <select id="category">
+            <option value="temperatura">Temperatura</option>
+            <option value="distancia">Distancia</option>
+            <option value="tiempo">Tiempo</option>
+            <option value="moneda">Moneda</option>
+        </select>
+
+        <label for="fromUnit">Unidad de origen:</label>
+        <select id="fromUnit"></select>
+
+        <label for="toUnit">Unidad de destino:</label>
+        <select id="toUnit"></select>
+
+        <label for="value">Valor:</label>
+        <input type="number" id="value" placeholder="Ingrese un valor">
+
+        <button onclick="convert()">Convertir</button>
+
+        <h2>Resultado:</h2>
+        <p id="result">--</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
