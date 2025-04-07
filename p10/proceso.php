@@ -1,10 +1,14 @@
 <?php
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $modelo_id = $_POST["modelo_id"];
         $usuario_id = $_POST["usuario_id"];
         $folio = $_POST["folio"];
 
-        $con = mysqli_connect("hostname", "root", "", "autos");
+        $con = mysqli_connect("localhost", "root", "", "autos");
         if (mysqli_connect_errno()) {
             echo "<p class='alert alert-danger'>La conexión con la base de datos SQL no fue exitosa: " . mysqli_connect_error() . "</p>";
             exit();
