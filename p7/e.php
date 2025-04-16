@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aproximación de e</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/p7/style.css">
+    <script src="../js/navbar.js"></script>
 </head>
+
 <body>
+    <nav-bar></nav-bar>
+
     <h1>Aproximación de e</h1>
     <form method="POST">
         <label>Ingrese el valor de n:</label>
@@ -15,7 +21,8 @@
     </form>
 
     <?php
-    function factorial($num) {
+    function factorial($num)
+    {
         $fact = 1;
         for ($i = 1; $i <= $num; $i++) {
             $fact *= $i;
@@ -41,4 +48,5 @@
     <br>
     <a href="index.php">Volver al inicio</a>
 </body>
+
 </html>

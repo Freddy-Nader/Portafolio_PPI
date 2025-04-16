@@ -1,0 +1,33 @@
+/* Estilo para las tablas */
+table {
+    margin: 50px auto;
+    border: 3px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 8px;
+    width: 120px;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: white;
+}
+
+table tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+th {
+    background-color: sandybrown;
+}
+
+table th:hover, 
+table td:hover {
+    background-color: black;
+    color: white;
+    cursor: crosshair;
+}

@@ -1,7 +1,21 @@
+*,
+body,
+.navbar,
+.nav-links,
+.dropdown,
+header {
+    background-color: beige;
+}
+
 * {
     font-family: monospace;
     background-color: beige;
     color: darkblue;
+}
+
+body {
+    text-align: left;
+    margin: 8px;
 }
 
 .input {

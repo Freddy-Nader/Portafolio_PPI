@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listado de compras</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Opcional: Puedes agregar estilos personalizados aquí si lo necesitas */
-    </style>
+    <script src="../js/navbar.js"></script>
 </head>
+
 <body>
+    <nav-bar></nav-bar>
+    
     <div class="container mt-5">
         <h2>Listado de compras</h2>
         <nav aria-label="Navegación">

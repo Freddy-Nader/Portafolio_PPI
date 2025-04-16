@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen Parcial PPI</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="../css/examenParcial/style.css">
+    <script src="../js/examenParcial/script.js"></script>
+    <script src="../js/navbar.js"></script>
 </head>
+
 <body>
+    <nav-bar></nav-bar>
+
     <h1>Programa 1: Insercion</h1>
     <p id="viejo">Arreglo original: </p>
     <p id="nuevo">Arreglo ordenado: </p>
-    <button onclick="const numeros = [1, 4, 8, 123, 6, 23, 51, -5, 23, 73, 34, 7, 3]; return Insercion(numeros)">Mostrar arreglos</button>
+    <button onclick="const numeros = [1, 4, 8, 123, 6, 23, 51, -5, 23, 73, 34, 7, 3]; return Insercion(numeros);">Mostrar
+        arreglos</button>
 
     <h1>Programa 2: Números aleatorios</h1>
     <form action="" onclick="return aleatorio(arregloRandom(), document.getElementById('input').value)">
@@ -23,4 +29,5 @@
     <p id="iguales">Cantidad de números iguales: </p>
     <p id="mayores">Cantidad de números mayores: </p>
 </body>
+
 </html>
